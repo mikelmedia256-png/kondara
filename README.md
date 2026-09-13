@@ -2,19 +2,17 @@
 
 Marketing website for Kondara, an aerospace startup developing an onboard module for spacecraft guidance, navigation, control, and computing.
 
+Live at https://kondara.space (Cloudflare Workers static assets).
+
 ## Run locally
 
-Requirements: Node.js 20+ and pnpm.
+Requirements: Node.js 20+.
 
-    pnpm install
-    pnpm dev
+    npm install
+    npm run dev
 
-## Production build
+## Deploy
 
-    pnpm build
+    npm run deploy
 
-The generated static site is written to dist.
-
-## Before publishing the website
-
-Replace YOUR-EMAIL-HERE in src/App.tsx with the real briefing email address.
+Builds to `dist/` and uploads with Wrangler. The `kondara.space` and `www.kondara.space` custom domains are configured in `wrangler.jsonc`. First time on a machine, run `npx wrangler login`.

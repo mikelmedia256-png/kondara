@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ArrowDown, ArrowUpRight, Menu, X } from 'lucide-react';
 
-const CONTACT_EMAIL = 'YOUR-EMAIL-HERE';
+const CONTACT_EMAIL = 'kondarasolutions@gmail.com';
 
 function LogoMark({ className = "w-6 h-6" }: { className?: string }) {
   return (
