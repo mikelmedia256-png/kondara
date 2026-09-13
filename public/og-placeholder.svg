@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#030205"/>
+  <defs>
+    <radialGradient id="nebula" cx="82%" cy="42%" r="64%">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".82"/>
+      <stop offset=".35" stop-color="#5B21B6" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#030205" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#nebula)"/>
+  <g transform="translate(950 190) scale(6.4)" fill="none" opacity=".2">
+    <path d="M7 4v24M9 16 21 5M9 16l12 11" stroke="#F3F3F8" stroke-width="4.5" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M18 4.5c5.8.7 10 5.5 10 11.4 0 2.5-.8 4.9-2.3 6.8" stroke="#F3F3F8" stroke-width="2.25" stroke-linecap="square"/>
+    <rect x="23" y="22" width="5" height="5" fill="#F3F3F8"/>
+  </g>
+  <text x="80" y="180" fill="#F3F3F8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="10">KONDARA</text>
+  <text x="80" y="315" fill="#F3F3F8" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">One module for onboard</text>
+  <text x="80" y="395" fill="#F3F3F8" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">spacecraft control.</text>
+  <text x="80" y="540" fill="#B9A7CE" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">HUNTSVILLE, ALABAMA</text>
+</svg>
